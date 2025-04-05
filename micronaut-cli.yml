@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: sv.com.gameteam.micronautcrud
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, data, data-jdbc, http-client-test, jackson-databind, java, java-application, jdbc-hikari, junit, logback, maven, maven-enforcer-plugin, micronaut-aot, micronaut-http-validation, mysql, netty-server, openapi, properties, readme, shade, spring, spring-data-jdbc, static-resources, swagger-ui, test-resources]
