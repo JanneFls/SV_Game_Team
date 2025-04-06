@@ -13,3 +13,6 @@ out/
 .settings
 .classpath
 .factorypath
+
+# Crea un archivo .gitignore
+echo -e "target/\n.classpath\n.project\n.settings/\n.idea/\n*.iml\n*.log\n.DS_Store" > .gitignore
