@@ -1,4 +1,4 @@
-name: Tests  # Nombre del workflow
+name: CI Tests  # Nombre del workflow
 on: [push, pull_request]  # Se ejecuta en pushes y PRs
 
 jobs:
