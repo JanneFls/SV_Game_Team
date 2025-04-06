@@ -1,0 +1,12 @@
+name: Tests  # Nombre del workflow
+on: [push, pull_request]  # Se ejecuta en pushes y PRs
+
+jobs:
+  test:  # Nombre del job (aparecerá como check)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4  # Descarga el código
+      - name: Install dependencies  # Instala dependencias
+        run: npm install  # Ejemplo para Node.js (cámbialo según tu stack)
+      - name: Run tests  # Ejecuta pruebas
+        run: npm test  # Reemplaza con tu comando (pytest, mvn test, etc.)
