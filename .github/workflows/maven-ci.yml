@@ -1,6 +1,5 @@
 name: Java CI with Maven
-on: [push, pull_request]  # Se activa en pushes y PRs
-
+on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -11,5 +10,5 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Build and test with Maven
-        run: mvn test  # Asegúrate de que este comando funcione en tu proyecto
+      - name: Run tests
+        run: mvn test
