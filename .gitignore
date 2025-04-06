@@ -14,5 +14,5 @@ out/
 .classpath
 .factorypath
 
-# Crea un archivo .gitignore
+# Archivo
 echo -e "target/\n.classpath\n.project\n.settings/\n.idea/\n*.iml\n*.log\n.DS_Store" > .gitignore
